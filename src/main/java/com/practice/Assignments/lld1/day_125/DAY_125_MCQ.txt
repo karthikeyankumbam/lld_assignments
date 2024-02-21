@@ -1,0 +1,30 @@
+1.Which of the following is the correct way of getting the executing thread’s name?
+    a)Thread.currentThread.name
+    b)Thread.executingThread().getName()
+    c)Thread.currentThread().getName()
+    d)Thread.executingThread.getName()
+
+2.Consider the following two statements
+  statement 1 :Threads of same process can access each other’s stack data
+  statement 2 :Threads of same process can access each other’s global data
+  Which of the following is correct?
+
+3.Consider the following statements
+    statement 1 :Parallel programming requires multiple program counters.
+    statement 2 :Multithreading requires multiple cores.
+    Which of the following is correct?
+
+4.Consider the following two statements
+  statement 1 :Runnable interface is implemented by class which will be invoked via a separate Thread
+  statement 2 :The name of the function to start a new Thread is run
+  Which of the following is correct?
+
+5.Consider the following statements
+  statement 1 : Concurrent programming means more than one process is in execution at the same time, but only one of them might be making progress.
+  statement 2 : Parallel programming means more than one process is in execution as well as making progress at the same time.
+  Which of the following is correct?
+
+6.Consider the following two statements
+    statement 1 : Parallel programming requires multiple program counters
+    statement 2 : Concurrent programming requires time-bound CPU scheduling
+    Which of the following is correct?
