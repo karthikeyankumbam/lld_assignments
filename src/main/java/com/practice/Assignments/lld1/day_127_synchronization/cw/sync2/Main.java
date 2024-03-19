@@ -8,6 +8,7 @@ public class Main {
         Object object=new Object();
         Lock lock=new ReentrantLock();
         Count count=new Count(0);
+
         Adder adder=new Adder(count,lock);
         Substractor substractor=new Substractor(count,lock);
         Thread thread1=new Thread(adder);
