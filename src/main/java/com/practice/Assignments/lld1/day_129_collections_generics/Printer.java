@@ -8,4 +8,7 @@ public class Printer<T> {
     public void print(){
         System.out.println(thingsToPrint);
     }
+    public T get(){
+        return thingsToPrint;
+    }
 }

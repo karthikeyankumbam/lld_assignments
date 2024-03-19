@@ -17,5 +17,6 @@ public class Main {
         stringPrinter.print();
         Printer<Boolean> booleanPrinter=new Printer<>(true);
         booleanPrinter.print();
+        Boolean res = booleanPrinter.get();
     }
 }
