@@ -1,4 +1,4 @@
-package com.practice.Assignments.lld1.day_129_collections_generics;
+package com.practice.Assignments.lld1.day_129_collections_generics.cw;
 
 public class Printer<T> {
     T thingsToPrint;
