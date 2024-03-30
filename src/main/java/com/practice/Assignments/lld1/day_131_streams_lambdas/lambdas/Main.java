@@ -9,6 +9,7 @@ public class Main {
             }
         };
         a.show();
+
         B b=new B(){
             @Override
             public void demo() {
