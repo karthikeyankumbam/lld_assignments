@@ -1,10 +1,10 @@
-package com.practice.Assignments.lld2.day137prototypeandregistry;
+package com.practice.Assignments.lld2.day137prototypeandregistry.prototypeconfig;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class ConfigurationPrototypeRegistryImpl implements ConfigurationPrototypeRegistry {
-    private Map<ConfigurationType,Configuration> registry=new HashMap<>();
+    private Map<ConfigurationType, Configuration> registry=new HashMap<>();
     @Override
     public void addPrototype(Configuration user) {
         registry.put(user.getType(),user);

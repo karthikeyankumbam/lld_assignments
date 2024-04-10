@@ -1,4 +1,4 @@
-package com.practice.Assignments.lld2.day137prototypeandregistry;
+package com.practice.Assignments.lld2.day137prototypeandregistry.prototypeconfig;
 
 public interface ConfigurationPrototypeRegistry {
 
