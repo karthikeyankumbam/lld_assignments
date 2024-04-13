@@ -1,4 +1,4 @@
-package com.practice.Assignments.lld2.day137prototypeandregistry.prototypeconfig;
+package com.practice.Assignments.lld2.day138prototypeandregistry.prototypeconfig;
 
 public class Configuration implements ClonableObject<Configuration> {
     private String themeColor;

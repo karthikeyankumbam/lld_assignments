@@ -1,4 +1,4 @@
-package com.practice.Assignments.lld2.day137prototypeandregistry.invoice;
+package com.practice.Assignments.lld2.day138prototypeandregistry.invoice;
 
 public class Invoice implements ClonableObject<Invoice> {
     private Long invoiceId;

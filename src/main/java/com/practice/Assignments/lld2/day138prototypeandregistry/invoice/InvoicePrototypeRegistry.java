@@ -1,4 +1,4 @@
-package com.practice.Assignments.lld2.day137prototypeandregistry.invoice;
+package com.practice.Assignments.lld2.day138prototypeandregistry.invoice;
 
 public interface InvoicePrototypeRegistry {
 
