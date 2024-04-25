@@ -5,7 +5,6 @@ public class SmsNotification extends Notification{
     private String message;
 
     public SmsNotification(String recipient,  String message) {
-        super(recipient,message);
         this.recipient = recipient;
         this.message = message;
     }

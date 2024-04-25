@@ -1,11 +1,13 @@
 package com.practice.Assignments.lld2.day139factory.factorynotification;
 
-public class PushNotification  extends Notification{
+public class PushNotification extends Notification {
     private String recipient;
     private String message;
 
     public PushNotification(String recipient, String message) {
-        super(recipient,message);
+
+        this.recipient = recipient;
+        this.message = message;
     }
 
     public String getRecipient() {

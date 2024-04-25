@@ -6,7 +6,6 @@ public class EmailNotification extends Notification{
     private String message;
 
     public EmailNotification(String recipient, String sender, String message) {
-        super(recipient,message);
         this.recipient = recipient;
         this.sender = sender;
         this.message = message;
