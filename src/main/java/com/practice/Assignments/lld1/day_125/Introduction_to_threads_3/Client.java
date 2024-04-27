@@ -1,5 +1,7 @@
 package com.practice.Assignments.lld1.day_125.Introduction_to_threads_3;
 
+import java.util.Scanner;
+
 /**
  * *Raw Problem**
  * Write code to achieve the following
@@ -16,4 +18,13 @@ package com.practice.Assignments.lld1.day_125.Introduction_to_threads_3;
  * Print format = 2 times 6 is 12
  */
 public class Client {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=1;i<n;i++){
+            TableCreator t=new TableCreator(i);
+            Thread thread=new Thread(t);
+            thread.start();
+        }
+    }
 }
