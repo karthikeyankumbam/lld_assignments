@@ -1,15 +1,11 @@
 package com.practice.Assignments.lld2.day142behaviouraldp.task_observer;
 
-import com.practice.Assignments.lld2.day142behaviouraldp.task_observer.services.AppService;
-import com.practice.Assignments.lld2.day142behaviouraldp.task_observer.services.EmailService;
-import com.practice.Assignments.lld2.day142behaviouraldp.task_observer.services.SmsService;
+
 
 public class StockTradingManager extends Publisher {
     private String stockName;
     private double currentPrice;
     private double notificationThreshold;
-
-
     // DO NOT MODIFY THIS CONSTRUCTOR
     public StockTradingManager(String stockName, double initialPrice, double notificationThreshold) {
         this.stockName = stockName;
